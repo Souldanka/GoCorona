@@ -126,8 +126,9 @@ body{
     transition: background-color 0.3s ease 0s;
     
 }
-.bottom:hover{
-    background-color: #d36168;
+.botton:hover{
+    background-color: #966569;
+    transition: background-color 0.3s ease 0s;
 
 }
 .button_blue {
@@ -207,7 +208,7 @@ body{
         width: 100%;
         background-color: #000;
         height: 2px;
-        transform-origin: 0 0;
+      
     }
     .close-icon-menu::before{
         transform: rotate(45deg);  
@@ -273,4 +274,108 @@ body{
 }
 
 
-/* SECTION HEADER */
+/* END SECTION HEADER */
+
+/* START SECTION MAIN */
+.get-started {
+    background-color: #FAFBFD;
+    
+}
+.get-started__container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+    padding: 150px 15px 50px 15px;
+}
+.get-started__container::before{
+    content: "";
+    position: absolute;
+    width: 100vh;
+    height: 100%;
+    right: 252px;
+    top: 0;
+
+    transform: translate(100%, 0px);
+    background-color: #EC5863;
+    border-radius: 30px 0px 0px 30px;
+}
+.get-started__content {
+    flex: 0 1 48%;
+    padding: 0px 0px 0px 20px;
+}
+.get-started__block-text {
+    max-width: 410px;
+}
+.block-text {
+}
+.block-text__title {
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 126%;
+    color:#000;
+
+}
+.block-text__title:not(last-child){
+    margin: 0px 0px 12px 0px;
+}
+.block-text__title_blue span{
+    color: #4285F4;
+}
+.block-text__title span{
+    color:#EC5863;
+}
+.block-text__text {
+    line-height: 138.5%;
+}
+.block-text__text:not(last-child){
+    margin: 0px 0px 24px 0px;
+}
+.block-text__button {
+}
+.button {
+}
+.get-started__video {
+    flex: 1 1 100%;
+    padding: 60px 0px 0px 10px;
+}
+.video-get-started {
+    display: inline-flex;
+    align-items: center;
+
+}
+.video-get-started__icon {
+    flex: 0 0 44px;
+}
+.video-get-started__body {
+    padding: 0px 0px 0px 12px;
+}
+.video-get-started__title {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 126%;
+    letter-spacing: 0.08em;
+    color: #B0B0B0;
+}
+.video-get-started__title:not(last-child){
+    margin: 0px 0px 5px 0px;
+}
+    
+.video-get-started__text {
+    font-size: 9px;
+    line-height: 126%;
+    letter-spacing: 0.165em;
+    text-transform: uppercase;
+    color: #000000;
+}
+.get-started__image {
+    flex: 0 1 52%;
+    position: relative;
+    z-index: 2;
+
+}
+.get-started__imag img{
+    max-width: 100%;
+}
+/* END SECTION MAIN */
+
